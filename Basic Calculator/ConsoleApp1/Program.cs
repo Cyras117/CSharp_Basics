@@ -4,91 +4,67 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //Sefining variables
-            double result=0,previousResult;
-            bool loopControl = true;
+            double result;
             string Ninput,Oinput;
-            double number, suportNumber;
+            double number;
 
             //welcome screen
             Console.Clear();
             Console.WriteLine("\t\tBASIC CALCULATOR\n\n\n");
             Console.WriteLine("\tWelcome!!! Press any key to proceed");
             Console.ReadKey();
-
-            //entering loop
-            //todo: Refactor this to be simplier.
-            while (loopControl)
+            Console.Clear();
+            Console.WriteLine("\tInform a number or X to exit:\n\t");
+            Ninput = Console.ReadLine().ToLower();
+            if (Ninput.Equals("x"))
             {
-                //basic menu set up
-                Console.Clear();
-                //todo:Check this
-                Console.WriteLine("\t\tBasic Calculator\n\n\tTo exit type X\n\n\tPrevious Result:"+previousResult+"\n\n\tInform the number:");
-                // geting number Ninput
+                Console.WriteLine("\t\tExiting aplication....");
+                return;
+            }
+            result = double.Parse(Ninput);
+            while (true)
+            {
+                Console.WriteLine("\tInform the operation");
+                Oinput = Console.ReadLine().ToLower() ;
+                if (Oinput.Equals("x"))
+                    return;
+
+                Console.WriteLine("\tInform a number or X to exit:\n\t");
                 Ninput = Console.ReadLine().ToLower();
-                //Checking exit condition
-                if(Ninput.Equals("x"))
+                if (Ninput.Equals("x"))
                 {
-                    Console.Clear();
-                    Console.WriteLine("\n\n\t\tClosing calculator!!!\n\nPress any ky to close.");
-                    Console.ReadKey();
+                    Console.WriteLine("\t\tExiting aplication....");
                     break;
                 }
-                //Parsing Ninput to number
                 number = double.Parse(Ninput);
-                //todo:Check this.
-                previousResult = number;
-
-                //second loop
-                while (loopControl)
+                switch (Oinput)
                 {
-                    // Geting operation Oinput
-                    Console.WriteLine("\tInform the operation:\n+ For addition\n- Subtraction\n* Mutiplication\n / Division");
-                    Oinput = Console.ReadLine().ToLower();
-
-                    //Checking if it is a valid operation
-                    if (!(Oinput.Equals("*") || Oinput.Equals("/") || Oinput.Equals("+") || Oinput.Equals("-")))
-                    {
-                        Console.Clear();
-                        Console.WriteLine("\t\tInvalid operation, exiting program!!!");
-                        Console.WriteLine("\tlast Valid result:\t" + previousResult);
-                        Console.WriteLine("Press any key to proceed");
-                        Console.ReadKey();
-                    }
-                    //Getting number Ninput
-                    Console.WriteLine("\tInform the number or X to exit");
-                    Ninput = Console.ReadLine().ToLower();
-                     //Checking exit condition
-                    if(Ninput.Equals("x"))
-                    {
-                        Console.Clear();
-                        Console.WriteLine("\n\n\t\tClosing calculator!!!\n\nPress any ky to close.");
-                        Console.ReadKey();
+                    case "+":
+                        result += number;
                         break;
-                    }
-                    //Parsing Ninput to number
-                    number = double.Parse(Ninput);
-                    previousResult = number;
-                    //Checking exit condition
-                    if (Ninput.Equals("x"))
-                    {
-                        Console.Clear();
-                        Console.WriteLine("Last Result:\t", result);
-                        Console.WriteLine("\n\n\t\tClosing calculator!!!\n\nPress any ky to close.");
-                        Console.ReadKey();
+                    case "-":
+                        result -= number;
                         break;
-                    }
-                    //Parsing Ninput to number
-                    number = double.Parse(Ninput);
-                    previousResult = number;
-
+                    case "*":
+                        result *= number;
+                        break;
+                    case "/":
+                        result /= number;
+                        break;
+                    default:
+                        Console.WriteLine("invalid operation terminating aplication");
+                        return;
                 }
-            }
-            
-            Console.ReadKey();//temporary -> Just ignore it.
 
+                Console.Clear();
+                Console.WriteLine("\t\tResult:" + result);
+                Console.WriteLine("\n\t\tPress en key to continue");
+                Console.ReadKey();
+                Console.Clear();
+            }
         }
     }
 }
