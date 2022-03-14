@@ -1,0 +1,15 @@
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\bin\Debug\net5.0\Basic Calculator.exe
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\bin\Debug\net5.0\Basic Calculator.deps.json
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\bin\Debug\net5.0\Basic Calculator.runtimeconfig.json
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\bin\Debug\net5.0\Basic Calculator.runtimeconfig.dev.json
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\bin\Debug\net5.0\Basic Calculator.dll
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\bin\Debug\net5.0\ref\Basic Calculator.dll
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\bin\Debug\net5.0\Basic Calculator.pdb
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\obj\Debug\net5.0\Basic Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\obj\Debug\net5.0\Basic Calculator.AssemblyInfoInputs.cache
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\obj\Debug\net5.0\Basic Calculator.AssemblyInfo.cs
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\obj\Debug\net5.0\Basic Calculator.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\obj\Debug\net5.0\Basic Calculator.dll
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\obj\Debug\net5.0\ref\Basic Calculator.dll
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\obj\Debug\net5.0\Basic Calculator.pdb
+D:\Dev\C#\Orientação objeto\Projeto CSharp_Basics\CSharp_Basics\Basic Calculator\ConsoleApp1\obj\Debug\net5.0\Basic Calculator.genruntimeconfig.cache
